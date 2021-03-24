@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('fonts/gilroy-bold.eot'); /* IE 9 Compatibility Mode */
+    src: url('fonts/gilroy-bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('fonts/gilroy-bold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('fonts/gilroy-bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('fonts/gilroy-bold.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fonts/gilroy-bold.svg#gilroy-bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+body {
+    font-family: 'Gilroy-Bold';
+    font-size: 14px;
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+}
+
+/*main-page*/
+
+.toolbar {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 10px 0;
+    color: #828282;
+
+    border-bottom: 1px solid #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.nav {
+    font-size: 18px;
+}
+
+.nav:hover {
+    color: #070707;
+    cursor: pointer;
+}
+
+.intro {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.name {
+    color: #070707;
+    font-size: 50px;
+}
+
+.info {
+    color: #070707;
+    font-size: 18px;
+}
+
+.switch-lang {
+    font-size: 16px;
+    color: #828282;
+    transform: rotate(-90deg);
+    height: 100%;
+    text-transform: uppercase;
+}
+
+.border {
+    border-right: 2px solid #070707;
+    margin-right: 5px;
+}
+
+img {
+    width: 100%;
+    padding-bottom: 150px;
+}
+
+/*About me*/
+
+.about {
+    background-color: #F6F6F6;
+    color: #070707;
+    font-size: 18px;
+    padding: 120px 0 100px 0;
+    text-align: center;
+}
+
+.about-text {
+
+}
+
+/*Skills*/
+
+.skills {
+    padding: 100px 0;
+}
+
+.pt-15 {
+    padding-top: 15px;
+}
+
+.programs {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.program {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.png {
+
+}
+
+.title {
+    font-size: 14px;
+    text-align: center;
+    color: #828282;
+}
+
+.star {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
