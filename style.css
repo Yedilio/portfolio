@@ -119,6 +119,10 @@ img {
     padding-top: 15px;
 }
 
+.mb-50 {
+    margin-bottom: 50px;
+}
+
 .programs {
     display: flex;
     flex: 1;
@@ -182,6 +186,11 @@ img {
     border-radius: 10px;
     padding: 10px 5px;
     margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.send-btn:focus {
+    outline: none;
 }
 
 .links {
